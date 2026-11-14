@@ -1,0 +1,5 @@
+The bar chart compares the average PM2.5 levels at Adyar and Guindy stations.
+
+Adyar has an average PM2.5 level of 48, while Guindy has an average of 108.
+
+This indicates that Guindy recorded higher particulate pollution in the available sample data.
