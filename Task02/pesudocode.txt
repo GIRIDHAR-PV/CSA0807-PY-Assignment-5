@@ -1,0 +1,55 @@
+
+ALGORITHM: CLEAN AND NORMALISE AIR QUALITY DATA
+
+BEGIN
+
+    READ air quality records
+
+    SORT records by station, date and hour
+
+    FOR each record DO
+
+        REMOVE extra spaces from station name
+
+        CHECK for missing values
+
+        IF reading is missing THEN
+            USE previous valid reading from same station
+            IF previous reading is unavailable THEN
+                USE station median
+            END IF
+        END IF
+
+        CHECK for impossible values
+
+        IF value is invalid THEN
+            MARK value as missing
+        END IF
+
+        CHECK for duplicate records
+
+        IF duplicate exists THEN
+            RETAIN only one valid record
+        END IF
+
+        IF temperature is in Fahrenheit THEN
+            CONVERT temperature into Celsius
+        END IF
+
+        FORMAT date as YYYY-MM-DD
+
+    END FOR
+
+    CALCULATE minimum and maximum PM2.5
+
+    APPLY min-max normalisation
+
+    CALCULATE mean and standard deviation
+
+    APPLY z-score standardisation
+
+    STORE cleaned and normalised data
+
+    DISPLAY cleaned data
+
+END
