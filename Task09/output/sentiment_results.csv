@@ -1,0 +1,53 @@
+complaint,score,predicted_label
+complaint,0,neutral
+The air is clean today,1,positive
+Smoke from the factory is bad,-2,negative
+The roads are dirty,-1,negative
+The staff were helpful,1,positive
+Pollution has improved recently,1,positive
+The air quality is good,1,positive
+Factory smoke is increasing,-1,negative
+The service was slow,-1,negative
+The streets are clean,1,positive
+The pollution is bad,-1,negative
+The monitoring team is helpful,1,positive
+The air is dirty,-1,negative
+The situation has improved,1,positive
+The smoke is bad,-2,negative
+The roads are clean,1,positive
+The staff were rude,-1,negative
+Air quality is good today,1,positive
+Pollution is getting worse,0,neutral
+The response team was helpful,1,positive
+The factory smoke is dirty,-2,negative
+The service is good,1,positive
+The air is not clean,-1,negative
+The roads are bad,-1,negative
+The staff are helpful,1,positive
+The pollution has improved,1,positive
+The smoke is terrible,-1,negative
+The monitoring service is fast,1,positive
+The air is not bad,1,positive
+The streets are dirty,-1,negative
+The response was good,1,positive
+The factory is producing smoke,-1,negative
+The air quality is poor,0,neutral
+The team is helpful,1,positive
+The pollution is improving,0,neutral
+The roads are not clean,-1,negative
+The service is not bad,1,positive
+The air is clean,1,positive
+The factory is dirty,-1,negative
+The staff are not helpful,-1,negative
+The monitoring system is good,1,positive
+The pollution is severe,0,neutral
+The streets are improved,1,positive
+The response team is slow,-1,negative
+The air is not good,-1,negative
+The smoke is harmful,-1,negative
+The staff are good,1,positive
+The roads are not dirty,1,positive
+The service is helpful,1,positive
+The factory pollution is bad,-1,negative
+The air quality has improved,1,positive
+The monitoring team is rude,-1,negative

@@ -1,0 +1,9 @@
+The sentiment analysis system classifies citizen complaints into positive, negative and neutral categories.
+
+The extractive summariser selects important sentences based on frequently occurring words.
+
+The manual evaluation compares predicted sentiment with human judgement. Differences occur because the rule-based system uses a limited vocabulary and cannot fully understand context, sarcasm or complex expressions.
+
+The SQLite composite index on station and day helps improve filtered query performance.
+
+For a larger city monitoring network, SQLite can support an initial implementation. A larger database system and machine learning-based sentiment model may be considered as data volume increases.
