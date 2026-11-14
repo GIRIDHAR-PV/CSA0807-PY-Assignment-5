@@ -1,0 +1,39 @@
+
+ALGORITHM: AIR QUALITY ANALYSIS AND VISUALISATION
+
+BEGIN
+
+    CONNECT to SQLite database
+
+    READ cleaned air quality readings
+
+    GROUP readings by station and date
+
+    FOR each station and date group DO
+
+        CALCULATE minimum PM2.5
+        CALCULATE maximum PM2.5
+        CALCULATE average PM2.5
+        COUNT valid readings
+
+        STORE daily summary
+
+    END FOR
+
+    DISPLAY daily summary table
+
+    CREATE line chart for monthly PM2.5 trend
+
+    CREATE bar chart for station comparison
+
+    CREATE scatter plot for temperature and PM2.5
+
+    CREATE box plot for hourly pollution readings
+
+    ADD chart titles and axis labels
+
+    DISPLAY all charts
+
+    CLOSE database connection
+
+END
