@@ -1,0 +1,10 @@
+stations,method,time_seconds
+1,Python CSV loops,0.0398
+1,Pandas groupby,0.0098
+1,SQLite GROUP BY,0.0289
+12,Python CSV loops,0.261
+12,Pandas groupby,0.0546
+12,SQLite GROUP BY,0.408
+120,Python CSV loops,2.1771
+120,Pandas groupby,0.3993
+120,SQLite GROUP BY,3.7524
